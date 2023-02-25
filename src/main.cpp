@@ -1,5 +1,3 @@
-#include <Arduino.h>
-#include<stdio.h>
 /*******************************************************************************************
 *                                                                                         *
               Project Title : Automated Billing , Base Code
@@ -10,7 +8,8 @@
 *                                                                                         *
 *******************************************************************************************
   /* ********** defining Required blynk iot Libraries ********** */
-
+#include <Arduino.h>
+#include<stdio.h>
 
 #define BLYNK_TEMPLATE_ID "TMPLB9mvZmsn"
 #define BLYNK_DEVICE_NAME "Testing ACE esp8266 Mark7"
