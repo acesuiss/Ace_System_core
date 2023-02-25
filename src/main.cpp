@@ -14,8 +14,8 @@
 
 
 #define BLYNK_TEMPLATE_ID "TMPLB9mvZmsn"
-#define BLYNK_DEVICE_NAME "Testing ACE esp8266 Mark7"
-#define BLYNK_FIRMWARE_VERSION "0.1.1.2"                 // frimware version
+#define BLYNK_TEMPLATE_NAME "Testing ACE esp8266 Mark7"
+#define BLYNK_FIRMWARE_VERSION "0.1.1.3"                 // frimware version
 #define BLYNK_PRINT Serial
 //#define BLYNK_DEBUG
 #define APP_DEBUG
