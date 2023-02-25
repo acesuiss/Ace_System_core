@@ -9,7 +9,7 @@
               Essentials    : Blynk_iot Accouct And blynk Libriaries
 *                                                                                         *
 *******************************************************************************************
-  /* ********** defining Required blynk iot Libraries ********** */
+*********** defining Required blynk iot Libraries ********** */
 
 
 #define BLYNK_TEMPLATE_ID "TMPLB9mvZmsn"
@@ -153,7 +153,7 @@ void Relaytime_data (struct time * device)
 void calculate(struct time * str) {
   double timeinhour = str->total_sec / 3600 ;
   str->total_amount = str->power * timeinhour ;
-  unsigned int temp_units = str->units;
+  //unsigned int temp_units = str->units;
 }
 
 void broadcast_ace() {
